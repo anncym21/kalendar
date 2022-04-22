@@ -8,31 +8,39 @@
 
     <CalendarView
         android:id="@+id/calendar1"
-        android:layout_width="164dp"
-        android:layout_height="150dp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="55dp"
-        android:selectedWeekBackgroundColor="#f00"
+        android:layout_width="294dp"
+        android:layout_height="269dp"
+        android:maxDate="31/12/2022"
         android:minDate="04/22/2022"
-        android:maxDate="31/12/2022"/>
+        android:showWeekNumber ="false"
+        android:selectedWeekVertcicalBr="@color/black"
+        android:weekSeparationLineColor="#0f0"
+        android:unfocusedMonthDateColor="#00f"
+        android:weekNumberColor="#f00"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <CalendarView
         android:id="@+id/calendar2"
-        android:layout_width="166dp"
-        android:layout_height="150dp"
-        tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="55dp"
-        android:selectedWeekBackgroundColor="#f00"
+        android:layout_width="288dp"
+        android:layout_height="265dp"
+        android:maxDate="31/12/2022"
         android:minDate="04/22/2022"
-        android:maxDate="31/12/2022"/>
+        android:showWeekNumber ="false"
+        android:selectedWeekVertcicalBr="@color/black"
+        android:weekSeparationLineColor="#0f0"
+        android:unfocusedMonthDateColor="#00f"
+        android:weekNumberColor="#f00"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="305dp" />
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="81dp"
         android:layout_height="31dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="228dp" />
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="657dp" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -40,12 +48,14 @@
         android:layout_width="222dp"
         android:layout_height="44dp"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="309dp" />
+        tools:layout_editor_absoluteY="582dp" />
 
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="222dp"
         android:layout_height="44dp"
+        android:max="2"
+        android:min="1"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="368dp" />
+        tools:layout_editor_absoluteY="644dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
