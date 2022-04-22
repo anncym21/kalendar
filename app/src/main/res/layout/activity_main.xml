@@ -11,14 +11,20 @@
         android:layout_width="164dp"
         android:layout_height="150dp"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="55dp"
+        android:selectedWeekBackgroundColor="#f00"
+        android:minDate="04/22/2022"
+        android:maxDate="31/12/2022"/>
 
     <CalendarView
         android:id="@+id/calendar2"
         android:layout_width="166dp"
         android:layout_height="150dp"
         tools:layout_editor_absoluteX="210dp"
-        tools:layout_editor_absoluteY="55dp" />
+        tools:layout_editor_absoluteY="55dp"
+        android:selectedWeekBackgroundColor="#f00"
+        android:minDate="04/22/2022"
+        android:maxDate="31/12/2022"/>
 
     <TextView
         android:id="@+id/text1"
@@ -35,4 +41,11 @@
         android:layout_height="44dp"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="309dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="222dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="368dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
