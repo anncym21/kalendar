@@ -47,6 +47,7 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="222dp"
         android:layout_height="44dp"
+        android:min = "1"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="582dp" />
 
